@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // 3.1、 提示用户输入用户名和密码，如果用户名是admin,密码是“888888”则提示正确，否则一直继续。
+    var yonghuming = prompt("输入用户名");
+    var mima = prompt("请输入密码");
+    while (true) {
+        if (yonghuming == "admin" && mima == "888888") {
+            alert ("登陆成功");
+            break;
+        } else {
+            alert ("用户名或者密码错误");
+            yonghuming = prompt("输入用户名");
+            mima = prompt("请输入密码");          
+        }
+    }
+    alert ("程序结束");
+    </script>
+</body>
+</html>

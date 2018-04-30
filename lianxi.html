@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var age = prompt("请输入年龄");
+        // if (age > 18) {
+        //     console.log ("可以打王者荣耀");
+        // } else if (age > 10) {
+        //     console.log ("可以打两个小时");
+        // } else {
+        //     console.log ("不可以玩");
+        // }
+
+        // var score = prompt("请输入分数");
+        // if (score < 60) {
+        //     console.log ("E");
+        // } else if (score < 70) {
+        //     console.log ("D");
+        // } else if (score < 80) {
+        //     console.log ("C");
+        // } else if (score < 90) {
+        //     console.log ("B");
+        // } else {
+        //     console.log ("A");
+        // } 
+
+        // var num1 = prompt("请输入num1");
+        // var num2 = prompt("请输入num2");
+        // var max = num1 > num2 ? num2:num1;
+        // console.log (max);
+
+        // var age = +prompt("请输入年龄");
+        // var biaozhun = age >= 18 ? "成年":"未成年";
+        // console.log (biaozhun);
+
+        // 求三个数的最大值
+        // var num1 = 11;
+        // var num2 = 22;
+        
+
+
+        // var score = +prompt("请输入分数");
+        // switch (true) {
+        //     case score >= 90 && score <=100:
+        //         alert("A");
+        //         break;
+        //     case score >= 80 && score < 90:
+        //         alert("B");
+        //         break;            
+        //     case score >= 70 && score < 80:
+        //         alert("C");
+        //         break;
+        //     case score >= 60 && score < 70:
+        //         alert("D");
+        //         break;
+        //     default :
+        //         alert("E");
+        //         break;
+        // }
+        // alert ("程序结束");
+
+        // 计算所有偶数的和
+        // var sum = 0;
+        // var i = 1;
+        // while (i <= 100) {
+        //     if (i % 2 == 0) {
+        //         sum += i;
+        //     }
+        //     i++;
+        // }
+        // console.log (sum);
+
+        // var usename = prompt("请输入用户名");
+        // var password = prompt("请输入密码");
+        // while (usename != "admin" || password != "123456") {
+        //     usename = prompt("请输入用户名");
+        //     password = prompt("请输入密码");    
+        // }
+        // alert ("输入正确");
+
+        // var love = prompt("你爱我吗?y/n");
+        // while (love != "y") {
+        //     love = prompt("你爱我吗?y/n");
+        // }
+        // alert ("我也是，我也很爱我自己");
+
+        // do {
+        //     var love = prompt("你爱我吗")
+        // }while (love != "y");
+        // alert ("我也是，我也很爱我自己");
+
+        // do {
+        //     var usename = prompt("请输入用户名");
+        //     var password = prompt("请输入密码");
+        // } while (usename != "admin" || password != "123456");
+        
+        
+        
+        // var sum = 0;
+        // for (
+        //     var i = 1; 
+        //     i <= 100;
+        //     i++
+        // ) {
+        //     if(i % 2 == 0) {
+        //     sum += i; 
+        //     }
+        // }
+        // alert(sum);
+
+        //1 求1-100之间所有数的和、平均值
+        // var sum = 0;
+        // for (var i = 1; i <= 100; i++) {
+        //     sum += i;
+        // }
+        // console.log (sum);
+        // console.log (sum/100);
+        
+        
+        //2 求1-100之间所有数的乘积
+        // var sum = 1;
+        // for (var i = 1; i <= 100; i++) {
+        //     sum *= i;
+        // }
+        // console.log (sum);
+
+        //3 计算1-100之间能3整除的数的和
+        // var sum = 0;
+        // for (var i = 1; i <= 100; i++) {
+        //     if (i % 3 == 0) {
+        //         sum += i;
+        //     }
+        // }
+        // console.log (sum);
+
+
+        //1 计算1-100之间不能被7整除的数的和
+        // var sum = 0;
+        // for (var i = 1; i <= 100; i++) {
+        //     if (i % 7 != 0) {
+        //         sum += i;
+        //     }
+        // }
+        // console.log (sum);
+
+
+        //2 求1-100之间所有偶数的和
+        // var sum = 0;
+        // for (var i = 1; i <= 100; i++) {
+        //     if (i % 2 == 0) {
+        //         sum += i;
+        //     }
+        // }
+        // console.log (sum);
+        
+        //3 同时求1-100之间所有偶数和奇数的和
+        // var sum = 0;
+        // var sum = 0;
+        // for (var i = 1; i <= 100; i++) {
+        //     if (i % 2 !== 0) {
+        //         sum += i;
+        //     }
+        // }
+        // console.log (sum);
+        
+        //1 打印正方形
+        // for (var i = 1; i <= 10; i++){
+        //     for (var j = 1; j <= 10; j++){
+        //         document.write("☆");
+        //     }
+        //     document.write("<br>")
+        // }
+        
+        //2 打印直角三角形
+        // for (var i = 1; i <= 10; i++){
+        //     for (var j = 1; j <= i; j++){
+        //         document.write("☆");
+        //     }
+        //     document.write("<br>")
+        // }
+
+
+        //3 打印9*9乘法表
+        // for (var i = 1; i <= 9; i++){
+        //     for (var j = 1; j <= i; j++){
+        //         document.write(i + "*" + j + "=" + i*j + "&nbsp;&nbsp;");
+        //     }
+        //     document.write("<br>")
+        // }
+        // document.write("<table>");
+        
+        document.write("<table>");
+        for (var i = 1; i <= 9; i++){
+            document.write("<tr>");
+            for (var j = i; j <= 9; j++){
+                document.write("<td>");
+                document.write(i + "*" + j + "=" + i*j + "&nbsp;&nbsp;");
+                document.write("</td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+
+        // document.write("<table>");
+        // for (var i = 9; i >= 1; i--){
+        //     document.write("<tr>");
+        //     for (var j = i; j <= 9; j++){
+        //         document.write("<td>");
+        //         document.write(i + "*" + j + "=" + i*j + "&nbsp;&nbsp;");
+        //         document.write("</td>");
+        //     }
+        //     document.write("</tr>");
+        // }
+        // document.write("</table>");
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
